@@ -3,8 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
+
 # Carregar dados
-data_path = "c:\\Users\\Aluno\\Downloads\\Projeto Streamlit\\dadosStreamlit\\health_data.csv"
+data_path = "health_data.csv"
 df = pd.read_csv(data_path)
 
 # Título e Introdução
